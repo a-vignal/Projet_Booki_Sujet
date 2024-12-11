@@ -1,0 +1,190 @@
+/*couleur du site*/
+:root{
+    --primary: #0065FC;
+    --secondary:#DEEBFF;
+    --bg-dark: #D9D9D9;
+    --bg-light: #F2F2F2;
+}
+
+html{
+
+    font-family: "Raleway",sans-serif;    
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+header{
+    margin: 0;
+    padding: 0;    
+}
+.header-logo{
+    max-width: 5%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+	flex-direction: row;
+    justify-content: flex-end;
+	align-items:center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    align-items:center;
+    outline: none;
+    text-decoration: none;
+}
+
+nav a {
+    outline: none;
+    text-decoration: none;
+    margin-right: 12px;
+    text-align: center;
+    color: black;
+    padding: 4px 12px 4px 12px;
+        
+}
+.nav-list {
+    outline: none;
+    text-decoration: none;
+    margin-right: 12px;
+    text-align: center;
+    color: black;      
+
+}
+
+nav a:hover {
+    border-top-width: 5px; 
+    border-top-color: var(--primary);
+}
+
+/* partie bouton + recherche map*/
+.research-form {
+    
+    display:flex ;	
+    margin: 0 auto;
+    width: 25%;  
+    justify-content: flex-start;
+    align-content: flex-start;
+
+}
+.position-icon-features{
+    display: flex;
+    align-self: center;
+    align-content:space-around ;    
+    padding: 7%;
+    background-color: var(--bg-dark);    
+}
+button{
+
+    background-color: blue;
+    color: white;
+    
+}
+
+/*partie images */
+img:not(.header-logo){
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 95%;
+    height:150px;
+    padding: 2px 2px 2px 7px;
+}
+.section-title{    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.populaires-title{
+    display:flex;
+    justify-content: flex-start;
+}
+.hebergements-and-populaires{
+    display: flex;
+    flex-direction: row;
+}
+.hebergements-cards{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around   
+    border-radius: 15px;
+    background-color: var(--bg-dark);
+    margin: 2%;    
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.card{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-around;    
+    border-radius: 15px;
+    background-color: var(--bg-light);
+    flex-wrap: wrap;
+    margin-right:5px;
+    width: 230px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+
+}
+.card.populaires-cards{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: space-around;    
+    border-radius: 15px;
+    background-color: var(--bg-light);
+    flex-wrap: wrap;
+    margin:1%;
+
+}
+.card-content{
+    display: flex
+    ;
+        flex-direction: row;
+        outline: none;
+        text-decoration: none;
+        color: black;
+        margin: 0;
+        padding-bottom: 4px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+
+}
+.populaires-cards{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-around;    
+    border-radius: 15px;
+    background-color: var(--bg-dark);
+    margin: 2%;    
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+}
+.activities-cards{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;    
+    border-radius: 15px;
+    background-color: #0065FC;
+    margin: 2%;    
+    flex-wrap: wrap;
+}
+.showMoreBtn{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: flex-end;
+}
