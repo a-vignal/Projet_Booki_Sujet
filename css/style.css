@@ -62,26 +62,49 @@ nav a:hover {
 
 /* partie bouton + recherche map*/
 .research-form {
-    
-    display:flex ;	
-    margin: 0 auto;
-    width: 25%;  
+    border-radius: 15px;
+    display:flex ;
+    flex-direction: row;	
     justify-content: flex-start;
-    align-content: flex-start;
+    align-content:space-around;    
+    width: 600px;  
+    height: 50px;
 
 }
 .position-icon-features{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     display: flex;
-    align-self: center;
-    align-content:space-around ;    
-    padding: 7%;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
     background-color: var(--bg-dark);    
 }
+.destination-input-text{
+    border-color: var(--bg-light);    
+    display: flex;
+ /*   justify-content: center;
+    align-self: center;    */
+    height: 90%;  
+}
+#destination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 100%;
+}
 button{
-
-    background-color: blue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--primary);
     color: white;
-    
+    width: 80%;
+    font-size: larger;
+    font-weight: bold;
 }
 
 /*partie images */
