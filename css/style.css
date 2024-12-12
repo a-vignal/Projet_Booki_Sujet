@@ -63,6 +63,7 @@ nav a:hover {
 /* partie bouton + recherche map*/
 .research-form {
     border-radius: 15px;
+    border-color: var(--bg-light);  
     display:flex ;
     flex-direction: row;	
     justify-content: flex-start;
@@ -70,6 +71,9 @@ nav a:hover {
     width: 600px;  
     height: 50px;
 }
+
+
+
 .position-icon-features{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -105,7 +109,39 @@ button{
     font-size: larger;
     font-weight: bold;
 }
+/*partie filtre */
+.filters-section{
+    border-radius: 15px;
+    border-color: var(--bg-light);  
+    display:flex ;
+    flex-direction: row;	
+    justify-content: space-evenly;
+    align-content: center;    
+    width: 800px;  
+    height: 50px;
+}
+article p{
 
+    font-size: larger;
+    font-weight: bold;
+}    
+.filters {
+    display:flex ;
+    flex-direction: row;	
+    justify-content: space-evenly;
+    align-content: center;    
+    width: 800px;  
+    height: 50px;
+}
+.icon-title-filter{
+    display:flex ;
+    flex-direction: row;	
+    align-content: center;    
+
+}
+i.fa-solid.fa-money-bill-wave{
+
+}
 /*partie images */
 img:not(.header-logo){
     border-top-left-radius: 15px;
@@ -209,4 +245,10 @@ img:not(.header-logo){
     flex-direction: column;
     justify-self: center;
     align-self: flex-end;
+}
+
+footer {
+    background-color: #0065FC;
+    display flex;
+    padding-right
 }
