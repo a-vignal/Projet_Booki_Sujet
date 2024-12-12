@@ -85,7 +85,8 @@ nav a:hover {
     background-color: var(--bg-dark);    
 }
 .destination-input-text{
-    border-color: var(--bg-light);    
+    
+    border:none;  
     display: flex;
  /*   justify-content: center;
     align-self: center;    */
@@ -111,19 +112,22 @@ button{
 }
 /*partie filtre */
 .filters-section{
-    border-radius: 15px;
-    border-color: var(--bg-light);  
     display:flex ;
     flex-direction: row;	
     justify-content: space-evenly;
     align-content: center;    
     width: 800px;  
     height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 article p{
 
     font-size: larger;
     font-weight: bold;
+    display:flex ;
+    align-items: center;
+    margin: 0;   
 }    
 .filters {
     display:flex ;
@@ -132,14 +136,60 @@ article p{
     align-content: center;    
     width: 800px;  
     height: 50px;
+
 }
+
 .icon-title-filter{
     display:flex ;
     flex-direction: row;	
-    align-content: center;    
-
+    align-content: center; 
+    border: solid; 
+    box-sizing: border-box;  
+    border-width: 5px;
+    border-radius: 20%;
+    border-color: var(--bg-light);
+    background-color: white;
+    width: 40%;
+    margin-left: 5%;
 }
+
 i.fa-solid.fa-money-bill-wave{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: white;  
+    
+}
+i.fa-solid.fa-child{    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: white;  
+}
+i.fa-solid.fa-heart{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: white;  
+}
+i.fa-solid.fa-fire{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: white;  
+}
+.filter-submit{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    background-color: white;  
+    border:none;
+    font-size: larger;    
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 /*partie images */
@@ -148,7 +198,7 @@ img:not(.header-logo){
     border-top-right-radius: 15px;
     width: 95%;
     height:150px;
-    padding: 2px 2px 2px 7px;
+    padding: 2px 2px 7px 7px;
 }
 .section-title{    
     display:flex;
@@ -169,7 +219,7 @@ img:not(.header-logo){
     display: flex;
     flex-direction:row;
     align-items: center;
-    justify-content: space-around   
+    justify-content: space-around;
     border-radius: 15px;
     background-color: var(--bg-dark);
     margin: 2%;    
@@ -236,11 +286,12 @@ img:not(.header-logo){
     align-items: center;
     justify-content: space-around;    
     border-radius: 15px;
-    background-color: #0065FC;
+    background-color: var(--bg-dark);
     margin: 2%;    
     flex-wrap: wrap;
 }
 .showMoreBtn{
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -248,7 +299,8 @@ img:not(.header-logo){
 }
 
 footer {
-    background-color: #0065FC;
-    display flex;
-    padding-right
+    background-color: var(--bg-dark);
+    display:flex;
+    flex-direction: row;
+    padding-right: 20%;
 }
